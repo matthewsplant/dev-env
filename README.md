@@ -53,7 +53,7 @@ composer install
  * MySQL application database along with user credentials (set in puppet/manifest/basee.php file)
 
 #### Development Envrionment
- * Root URL - http://127.0.0.1:8080/ (or http://dev.localhost:8080/ if you modified your et/c/hosts file)
+ * Root URL - http://127.0.0.1:8080/ (or http://dev.localhost:8080/ if you modified your /etc/hosts file)
  * Root Directory - /vagrant/www/
  * Leverage Composer and Phing scripts for enhanced DevOps automation.
 
