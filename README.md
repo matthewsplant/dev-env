@@ -48,9 +48,9 @@ composer install
 
 ## FAQ
 #### Credentials
- * Ubuntu Vagrant user is 'vagrant' with password of 'vagrant' (This is also what you are logged in as when you 'vagrant ssh' into your dev env)
- * MySQL Root User (set in puppet/manifest/basee.php file)
- * MySQL application database along with user credentials (set in puppet/manifest/basee.php file)
+ * Ubuntu Vagrant user - **vagrant/vagrant** (not needed when you 'vagrant ssh' in)
+ * MySQL Root user - **root/r00t** (set in puppet/manifest/basee.php file)
+ * MySQL application database and credentials (set in puppet/manifest/base.php file)
 
 #### Development Envrionment
  * Root URL - http://127.0.0.1:8080/ (or http://dev.localhost:8080/ if you modified your /etc/hosts file)
@@ -64,7 +64,7 @@ composer install
  * PHP 5.3.10
  * Composer
  * Phing 2.5.0 
-See http://dev.localhost:8080/phpinfo.php for more details.
+See http://127.0.0.1:8080/phpinfo.php for more details.
 
 ## Security Note
 This virtual machine is optimized for ease of use.  It is not secured properly for production use.
