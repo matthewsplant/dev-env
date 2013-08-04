@@ -27,7 +27,7 @@ cd project_dir
     vagrant up
 ```
 
-## Additional Features
+## Additional Options
 
 1. (Optional) Automate application database creation
  * Set install, database name, user, and password in in puppet/manifest/basee.php file
